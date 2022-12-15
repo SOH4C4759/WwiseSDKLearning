@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Intergration">
+      <UniqueIdentifier>{3aa08253-ed8a-4e98-8e3a-f7d74c430058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MigrationTest">
+      <UniqueIdentifier>{429eb649-eeac-4ee2-91a0-595db5c15155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Comon">
+      <UniqueIdentifier>{3e51769a-756a-4da2-878c-e99a67c465ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Intergration.cpp">
+      <Filter>Intergration</Filter>
+    </ClCompile>
+    <ClCompile Include="InterSoundBank.cpp">
+      <Filter>Intergration</Filter>
+    </ClCompile>
+    <ClCompile Include="IntergrationObject.cpp">
+      <Filter>Intergration</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>Comon</Filter>
+    </ClCompile>
+    <ClCompile Include="IntergrationEvent.cpp">
+      <Filter>Intergration</Filter>
+    </ClCompile>
+    <ClCompile Include="IntergrationMidi.cpp">
+      <Filter>Intergration</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Wwise_IDs.h" />
+  </ItemGroup>
+</Project>
